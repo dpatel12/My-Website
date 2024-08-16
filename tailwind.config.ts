@@ -76,6 +76,10 @@ const config = {
           foreground: "hsl(var(--card-foreground))",
         },
       },
+      backgroundImage: { 
+        'gradient-radial': 'conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)',
+        'silver-shimmer': 'linear-gradient(110deg, #f8f9fa 45%, #e2e6e9 55%, #f8f9fa)' 
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
@@ -100,13 +104,13 @@ const config = {
             transform: "translate(-50%,-40%) scale(1)",
           },
         },
+        spin: {
+          from: { transform: 'rotate(0deg)' },
+          to: { transform: 'rotate(360deg)' }
+        },
         shimmer: {
-          from: {
-            backgroundPosition: "0 0",
-          },
-          to: {
-            backgroundPosition: "-200% 0",
-          },
+          '0%': { backgroundPosition: '-100%' },
+          '100%': { backgroundPosition: '200%' }
         },
         moveHorizontal: {
           "0%": {
@@ -151,6 +155,7 @@ const config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         spotlight: "spotlight 2s ease .75s 1 forwards",
+        "spin-slow": "spin 3s linear infinite",
         shimmer: "shimmer 2s linear infinite",
         first: "moveVertical 30s ease infinite",
         second: "moveInCircle 20s reverse infinite",

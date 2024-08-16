@@ -4,6 +4,8 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import React from 'react';
 import Typewriter from './Typewriter';
 import MagicButton from "./ui/MagicButton";
+import { FaLocationArrow } from "react-icons/fa";
+import { AiFillFolderOpen } from "react-icons/ai";
 
 const Hero = () => {
   return (
@@ -58,6 +60,8 @@ const Hero = () => {
             <a href="#about">
                 <MagicButton
                   title = "Show my work"
+                  icon={<AiFillFolderOpen/>}
+                  position='right'
                 />
             </a>
           </div>
