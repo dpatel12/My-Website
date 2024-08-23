@@ -2,6 +2,7 @@ export const navItems = [
   { name: "About", link: "#about" },
   { name: "Work Experience", link: "#workexp" },
   { name: "Projects", link: "#projects" },
+  { name: "Education", link: "#education" },
   { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
@@ -14,7 +15,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/laptop.jpeg",
     spareImg: "",
   },
   {
@@ -169,55 +170,121 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
+    title: "Associate Software Developer, Absolute Security",
     desc: [
-      "Assisted in the development of a web-based platform using React.js.",
-      "Enhanced interactivity across the platform.",
-      "Collaborated with designers to implement new features."
+      "Developed and implemented Java-based software components and RESTful APIs, focusing on robust design, implementation, and testing to meet client and stakeholder objectives.",
+      "Deployed and contributed to microservice components using Jenkins, Kubernetes and ARGO.",
+      "Directed daily Agile stand-up meetings and participated in team activities including backlog refinement and sprint planning.",
+      "Helped maintain team quality benchmarks by achieving 90% or higher code coverage in unit tests for new code."
     ],
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
-    date: "Jan 2021 - Aug 2021", // example date
+    thumbnail: "/absolute.jpeg",
+    date: "September 2023 - May 2024", // example date
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
+    title: "Software Engineering Fellow, Headstarter AI",
     desc: [
-      "Assisted in the development of a web-based platform using React.js.",
-      "Enhanced interactivity across the platform.",
-      "Collaborated with designers to implement new features."
+      "Leading the development of key projects utilizing HTML, CSS, DNS, ReactJS, NextJS, Firebase, OpenAI, AWS, authentication systems, Stripe API, RAG, and vector databases.",
+      "Serving as Scrum Master, facilitating agile processes, and ensuring efficient team collaboration and project delivery.",
+      "Acquiring practical experience in AI-driven solutions, web development, and the integration of cutting-edge technologies.",
+      "Collaborating on diverse projects, participating in mock scenarios, and engaging in networking events and hackathons to sharpen both technical and professional skills."
     ],
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-    date: "Jan 2021 - Aug 2021", // example date
+    thumbnail: "/headstarter.jpeg",
+    date: "July 2024 - September 2024", // example date
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
+    title: "Java Developer, Albertsons Companies",
     desc: [
-      "Assisted in the development of a web-based platform using React.js.",
-      "Enhanced interactivity across the platform.",
-      "Collaborated with designers to implement new features."
+      "Created Powershell and command line scripts to connect an API interface to company semi-trucks.",
+      "Wrote scripts that ran weekly which collected and formatted logistics data in JSON form from 16 distribution centers across the United States.",
+      "Tested existing codebases by creating JUnit tests in Java-based repositories while increasing the code coverage.",
+      "Wrote support documentation for both support team and users."
     ],
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-    date: "Jan 2021 - Aug 2021", // example date
+    thumbnail: "/albertsonssquare.svg",
+    date: "September 2022 - January 2023", // example date
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
+    title: "Application Programmer Analyst, Provincial Health Services Authority (PHSA)",
     desc: [
-      "Assisted in the development of a web-based platform using React.js.",
-      "Enhanced interactivity across the platform.",
-      "Collaborated with designers to implement new features."
+      "Participated in the development, implementation, and testing of a .NET based website adhering to robust development standards and wireframe documentation requirements.",
+      "Provided system troubleshooting for web and database issues and implemented database updates using SQL queries. Augmented site with additional pages and menus."
     ],
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-    date: "Jan 2021 - Aug 2021", // example date
-    bulletPoints: [
-      "Collaborated on key features of the platform.",
-      "Improved user engagement by implementing responsive design."
+    thumbnail: "/phsanew.png",
+    date: "September 2021 - January 2022", // example date
+  },
+  {
+    id: 5,
+    title: "Sales Specialist, Apple",
+    desc: [
+      "Identified customer needs and demonstrated product features.",
+      "Built relationships with customers and businesses by providing support, answering questions, and following up on purchases.",
+      "Participated in ongoing training to develop and enhance product knowledge."
     ],
+    className: "md:col-span-2",
+    thumbnail: "/applereal.svg",
+    date: "September 2023 - January 2024", // example date
+  },
+  {
+    id: 6,
+    title: "Corporate Venture Capital & Business Analytics Externship, HP Tech Ventures",
+    desc: [
+      "Expected to research and evaluate pre-seed stage startups for potential investment opportunities.",
+      "Will analyze business models, strategies, and value chains using advanced data analytics tools.",
+      "Looking forward to collaborating with venture capital teams to identify and profile promising startups."
+    ],
+    className: "md:col-span-2",
+    thumbnail: "/hp.svg",
+    date: "August 2024 - September 2024",
+    banner: "STARTING SOON" // example date
+  },
+];
+
+export const education = [
+  {
+    id: 1,
+    title: "Bachelor of Science in Computer Science, Joint Major in Business Administration",
+    institution: "Simon Fraser University",
+    date: "2019 - 2024",
+    logo: "/SFU.svg",
+    details: ["Graduated with honors", "Relevant coursework: AI, Machine Learning, Web Development"],
+  },
+];
+
+export const certificationsData = [
+  {
+    id: 1,
+    title: "AWS Certified Cloud Practitioner",
+    institution: "Amazon Web Services",
+    date: "September 2024 (Expected)",
+    logo: "/aws.svg",
+    banner: "IN PROGRESS",
+  },
+  {
+    id: 2,
+    title: "Certified Scrum Master®",
+    institution: "Scrum Alliance",
+    date: "August 2024",
+    logo: "/scrum-alliance (1).svg",
+  },
+  {
+    id: 3,
+    title: "Work Integrated Learning (WIL) e-Learning Artificial Intelligence",
+    institution: "Information and Communications Technology Council (ICTC-CTIC)",
+    date: "April 2022",
+    logo: "/ICTC.png",
+  },
+  {
+    id: 4,
+    title: "Work Integrated Learning (WIL) e-Learning Blockchain",
+    institution: "Information and Communications Technology Council (ICTC-CTIC)",
+    date: "April 2022",
+    logo: "/ICTC.png",
   },
 ];
 
