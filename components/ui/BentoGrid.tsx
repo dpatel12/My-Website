@@ -7,7 +7,6 @@ import Lottie from "react-lottie";
 
 import { cn } from "@/utils/cn";
 import GridGlobe from "./GridGlobe";
-import animationData from '@data/confetti.json';
 
 
 import { BackgroundGradientAnimation } from "./GradientBg";
@@ -55,10 +54,10 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["Python", "Java", "C/C++", "HTML/CSS"];
+  const leftLists = ["Python", "Java", "C/C++", "React"];
   const rightLists = ["C", "C++", "Powershell", "SQL"];
   const additionalListOne = ["Node.js, Next.js", "JavaScript", "SQL, MongoDB"]; // New list
-  const additionalListTwo = ["React", "MongoDB", "OpenAI"];
+  const additionalListTwo = ["HTML/CSS", "MongoDB", "OpenAI"];
 
   const [copied, setCopied] = useState(false);
 
