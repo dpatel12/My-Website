@@ -10,8 +10,7 @@ import GridGlobe from "./GridGlobe";
 
 
 import { BackgroundGradientAnimation } from "./GradientBg";
-// import GridGlobe from "./GridGlobe";
-// import animationData from "@/data/confetti.json";
+import animationData from "@/data/confetti.json";
 import MagicButton from "./MagicButton";
 
 export const BentoGrid = ({
@@ -64,7 +63,7 @@ export const BentoGridItem = ({
   const defaultOptions = {
     loop: copied,
     autoplay: copied,
-    // animationData: animationData,
+    animationData: animationData,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",
     },
@@ -127,22 +126,33 @@ export const BentoGridItem = ({
             titleClassName,
             "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10"
           )}
-        >
-          {/* change the order of the title and des, font-extralight, remove text-xs text-neutral-600 dark:text-neutral-300 , change the text-color */}
-          <div className="font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#bdbfe4] z-10">
-            {description}
+        >          
+        {id === 2 ? (
+          <div className="relative flex flex-col">
+            <div className="flex-1">
+              <div
+                className={`font-arial text-lg lg:text-3xl font-bold z-10 leading-tight`}
+              >
+                {title}
+              </div>
+            </div>
+            {/* Globe component */}
+            <div className="flex-shrink-0 mt-2">
+              <GridGlobe />
+            </div>
           </div>
-          {/* add text-3xl max-w-96 , remove text-neutral-600 dark:text-neutral-300*/}
-          {/* remove mb-2 mt-2 */}
-          <div
-            className={`font-arial text-lg lg:text-3xl max-w-96 font-bold z-10`}
-          >
-            {title}
-          </div>
-
-          {/* for the github 3d globe */}
-          {id === 2 && <GridGlobe/>}
-
+        ) : (
+          <>
+            <div className="font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#bdbfe4] z-10">
+              {description}
+            </div>
+            <div
+              className={`font-arial text-lg lg:text-3xl max-w-96 font-bold z-10`}
+            >
+              {title}
+            </div>
+          </>
+        )}
           {/* Tech stack list div */}
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2 top-0">
@@ -182,8 +192,8 @@ export const BentoGridItem = ({
                 className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
                   }`}
               >
-                {/* <img src="/confetti.gif" alt="confetti" /> */}
-                {/* <Lottie options={defaultOptions} height={200} width={400} /> */}
+                <img src="/confetti.gif" alt="confetti" />
+                <Lottie options={defaultOptions} height={200} width={400} />
               </div>
 
               <MagicButton
