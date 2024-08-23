@@ -86,7 +86,7 @@ export const projects = [
     title: "Escape From Corona - Java Maven 2D Maze Game",
     des: "A thrilling single player 2D maze game with 3 difficulty levels where you must escape the coronavirus",
     img: "/escapecorona.png",
-    iconLists: ["/java.svg", "/apachemaven.svg", "/figma.svg", "/gradlebig.svg", "/Junit.svg"],
+    iconLists: ["/java.svg", "/apachemaven.svg", "/figma.svg", "/gradlebig.svg"],
     link: "https://www.youtube.com/watch?v=l2fZTEQB7kQ&t=44s",
     actionText: "View Video",
   },
