@@ -76,7 +76,7 @@ export const projects = [
     des: "Use AI to generate flashcards and learn about any stock or finance related topics",
     img: "/stockstarter.png",
     iconLists: ["/js.svg", "/tail.svg", "/openaireal.svg", "/firebase.svg", "/next.svg", "/stripe.svg", "/re.svg"],
-    link: "/https://stockstarter.vercel.app",
+    link: "https://stockstarter.vercel.app",
     actionText: "View Website",
   },
   {
@@ -85,7 +85,7 @@ export const projects = [
     des: "A thrilling single player 2D maze game with 3 difficulty levels where you must escape the coronavirus",
     img: "/escapecorona.png",
     iconLists: ["/java.svg", "/apachemaven.svg", "/figma.svg", "/gradlebig.svg", "/Junit.svg"],
-    link: "/https://www.youtube.com/watch?v=l2fZTEQB7kQ&t=44s",
+    link: "https://www.youtube.com/watch?v=l2fZTEQB7kQ&t=44s",
     actionText: "View Video",
   },
   {
@@ -94,7 +94,7 @@ export const projects = [
     des: "Participated in the development of a health care system to improve maternal care and reduce preventable maternal deaths in Uganda",
     img: "/cradle2.png",
     iconLists: ["/re.svg", "/python.svg", "/ts.svg", "/html.svg", "/css.svg", "/docker.svg"],
-    link: "/https://github.com/dpatel12/CRADLE-Platform/blob/main/screenshots/cradle-platform.png",
+    link: "https://github.com/dpatel12/CRADLE-Platform/blob/main/screenshots/cradle-platform.png",
     actionText: "View Overview",
   },
   {
