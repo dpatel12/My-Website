@@ -77,6 +77,7 @@ export const projects = [
     img: "/stockstarter.png",
     iconLists: ["/js.svg", "/tail.svg", "/openaireal.svg", "/firebase.svg", "/next.svg", "/stripe.svg", "/re.svg"],
     link: "/https://stockstarter.vercel.app",
+    actionText: "View Website",
   },
   {
     id: 2,
@@ -85,6 +86,7 @@ export const projects = [
     img: "/escapecorona.png",
     iconLists: ["/java.svg", "/apachemaven.svg", "/figma.svg", "/gradlebig.svg", "/Junit.svg"],
     link: "/https://www.youtube.com/watch?v=l2fZTEQB7kQ&t=44s",
+    actionText: "View Video",
   },
   {
     id: 3,
@@ -93,6 +95,7 @@ export const projects = [
     img: "/cradle2.png",
     iconLists: ["/re.svg", "/python.svg", "/ts.svg", "/html.svg", "/css.svg", "/docker.svg"],
     link: "/https://github.com/dpatel12/CRADLE-Platform/blob/main/screenshots/cradle-platform.png",
+    actionText: "View Overview",
   },
   {
     id: 4,
@@ -101,6 +104,7 @@ export const projects = [
     img: "/profootball.png",
     iconLists: ["/aws.svg", "/openaireal.svg", "/html.svg", "/css.svg", "/js.svg", "/next.svg"],
     link: "https://ai-chat-support-theta.vercel.app",
+    actionText: "View Website",
   },
 ];
 
