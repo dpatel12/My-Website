@@ -4,6 +4,8 @@ import { navItems } from "@/data";
 import Hero from "@/components/Hero";
 import Grid from "@/components/Grid"
 import RecentProjects from "@/components/RecentProjects"
+import Clients from "@/components/Clients"
+import Experience from "@/components/Experience"
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import Image from "next/image";
 import { FaHome } from "react-icons/fa";
@@ -16,7 +18,9 @@ export default function Home() {
           <FloatingNav navItems={navItems}/>
           <Hero />
           <Grid/>
+          <Experience/>
           <RecentProjects />
+          <Clients/>
         </div>
     </main>
   );

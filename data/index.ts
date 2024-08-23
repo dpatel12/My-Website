@@ -111,33 +111,24 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Danyaal effectively identifies, analyzes, and implements creative solutions to complex problems, demonstrating a critical and innovative approach to challenges that include thoughtful decisions. He consistently demonstrates professional conduct, using time and technology efficiently and applies his skills and experiences in a reliable manner. Danyaal welcomes feedback as an opportunity to reflect, learn, and refine his work, all while expressing and applying ideas in ways that challenge existing methods and norms.",
+    name: "Mat Siwoski",
+    title: "Sr. Software Engineer at Provincial Health Services Authority",
+    profileImg: "/matsiwoski.jpeg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Danyaal is off to a good start as an IT professional.  Showing both creativity and adaptability while positively responding to feedback.  He took ownership of a deliverable, understood the business impact, and helped with transition to the business and support groups.  Was a pleasure to have on the team",
+    name: "Jonathon Robert",
+    title: "Solutions Architect, Transportation Systems, Albertsons Companies",
+    profileImg: "/jonathonrobert.jpeg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I’ve had the privilege of knowing Danyaal Patel for several years, and I can confidently say he’s one of the most outstanding students I’ve ever met. Not only does he excel academically, but he’s also deeply involved in serving his school, community, and faith. Danyaal is respected by his peers and serves as a bridge between cultures, helping to create a peaceful, harmonious, and diverse community where everyone feels welcome.",
+    name: "David Starr",
+    title: "Principal at Terry Fox Secondary School, Former Principal of Byrne Creek Community School, and Published Author",
+    profileImg: "/davidstarr.jpeg",
   },
 ];
 
