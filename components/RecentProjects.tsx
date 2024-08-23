@@ -8,7 +8,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20">
+    <div className="py-20" id="projects">
       <h1 className="heading">
         A sneak peek of{" "}
         <span className="text-purple">some projects</span>
@@ -19,7 +19,6 @@ const RecentProjects = () => {
             className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
             key={item.id}
           >
-            <a href={item.link} target="_blank" rel="noopener noreferrer">
             <PinContainer
               title={item.link}
               href={item.link}
@@ -75,7 +74,6 @@ const RecentProjects = () => {
                 </div>
               </div>
             </PinContainer>
-            </a>
           </div>
         ))}
       </div>
