@@ -130,9 +130,9 @@ export const BentoGridItem = ({
         {id === 2 ? (
           <div className="relative flex flex-col">
             <div className="flex-1">
-              <div
-                className={`font-arial text-lg lg:text-3xl font-bold z-10 leading-tight`}
-              >
+                <div
+                  className={`font-arial text-md lg:text-2xl font-bold z-10 leading-tight mb-6`} // Reduced text size
+                >
                 {title}
               </div>
             </div>
@@ -176,15 +176,15 @@ export const BentoGridItem = ({
         )}
           {/* Tech stack list div */}
           {id === 3 && (
-            <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2 top-0">
-              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
+            <div className="flex gap-1 lg:gap-2 w-fit absolute -right-0 lg:-right-2 top-0">
+              <div className="flex flex-col gap-2 md:gap-2 lg:gap-2">
                 {leftLists.map((item, index) => (
                   <span key={index} className="bg-[#10132E] text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center py-2 px-3">
                     {item}
                   </span>
                 ))}
               </div>
-              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
+              <div className="flex flex-col gap-2 md:gap-2 lg:gap-2">
                 {additionalListOne.map((item, index) => (
                   <span key={index} className="bg-[#10132E] text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center py-2 px-3">
                     {item}
