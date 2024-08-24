@@ -3,6 +3,7 @@ export const navItems = [
   { name: "Work Experience", link: "#workexp" },
   { name: "Projects", link: "#projects" },
   { name: "Education", link: "#education" },
+  { name: "Skills", link: "#skills" },
   { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
