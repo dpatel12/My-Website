@@ -9,7 +9,7 @@ const skills = {
         { name: 'Python', icon: 'python.svg' },
         { name: 'JavaScript', icon: 'js.svg' },
         { name: 'C++', icon: 'cpp.svg' },
-        { name: 'C', icon: 'C.svg' },
+        { name: 'C', icon: 'C.png' },
         { name: 'TypeScript', icon: 'ts.svg' },
         { name: 'SQL', icon: 'sql.svg' },
         { name: 'React', icon: 're.svg' },
