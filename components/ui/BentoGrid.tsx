@@ -147,10 +147,31 @@ export const BentoGridItem = ({
               {description}
             </div>
             <div
-              className={`font-arial text-lg lg:text-3xl max-w-96 font-bold z-10`}
-            >
-              {title}
-            </div>
+                className={cn(
+                  "font-arial text-lg lg:text-3xl max-w-96 font-bold z-10",
+                  id === 1 ? "text-[#FFFFFF]" : "text-white"
+                )}
+                style={
+                  id === 1
+                    ? {
+                        position: "absolute",
+                        top: "1rem",
+                        left: "1rem",
+                        fontWeight: "bold",
+                        textAlign: "left",
+                        textShadow: `
+                            -1px -1px 0 #000,  
+                            1px -1px 0 #000,
+                            -1px  1px 0 #000,
+                            1px  1px 0 #000
+                          `,
+                          maxWidth: "20rem",
+                      }
+                    : {}
+                }
+              >
+                {title}
+              </div>
           </>
         )}
           {/* Tech stack list div */}
