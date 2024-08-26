@@ -54,9 +54,7 @@ export const BentoGridItem = ({
   spareImg?: string;
 }) => {
   const leftLists = ["Python", "Java", "C/C++", "React"];
-  const rightLists = ["C", "C++", "Powershell", "SQL"];
-  const additionalListOne = ["Node.js, Next.js", "JavaScript", "SQL, MongoDB"]; // New list
-  const additionalListTwo = ["HTML/CSS", "MongoDB", "OpenAI"];
+  const additionalListOne = ["Node.js, Next.js", "JavaScript", "SQL, MongoDB", "HTML/CSS"];
 
   const [copied, setCopied] = useState(false);
 
@@ -177,31 +175,21 @@ export const BentoGridItem = ({
           {/* Tech stack list div */}
           {id === 3 && (
             <div className="flex gap-1 lg:gap-2 w-fit absolute -right-0 lg:-right-2 top-0">
-              <div className="flex flex-col gap-2 md:gap-2 lg:gap-2">
-                {leftLists.map((item, index) => (
-                  <span key={index} className="bg-[#10132E] text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center py-2 px-3">
-                    {item}
-                  </span>
-                ))}
-              </div>
-              <div className="flex flex-col gap-2 md:gap-2 lg:gap-2">
-                {additionalListOne.map((item, index) => (
-                  <span key={index} className="bg-[#10132E] text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center py-2 px-3">
-                    {item}
-                  </span>
-                ))}
-                {additionalListTwo.map((item, index) => (
-                  <span key={index} className="bg-[#10132E] text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center py-2 px-3">
-                    {item}
-                  </span>
-                ))}
-                {rightLists.map((item, index) => (
-                  <span key={index} className="bg-[#10132E] text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center py-2 px-3">
-                    {item}
-                  </span>
-                ))}
-              </div>
+            <div className="flex flex-col gap-2 md:gap-2 lg:gap-2">
+              {leftLists.map((item, index) => (
+                <span key={index} className="bg-[#10132E] text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center py-2 px-3">
+                  {item}
+                </span>
+              ))}
             </div>
+            <div className="flex flex-col gap-2 md:gap-2 lg:gap-2">
+              {additionalListOne.map((item, index) => (
+                <span key={index} className="bg-[#10132E] text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center py-2 px-3">
+                  {item}
+                </span>
+              ))}
+            </div>
+          </div>
           )}
           {id === 6 && (
             <div className="mt-5 relative">
