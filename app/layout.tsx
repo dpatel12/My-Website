@@ -4,11 +4,6 @@ import "./globals.css";
 import { ThemeProvider } from "./provider";
 import Head from 'next/head';
 
-declare global {
-  interface Window {
-    dataLayer: any;
-  }
-}
 
 const inter = Inter({ subsets: ["latin"] });
 
