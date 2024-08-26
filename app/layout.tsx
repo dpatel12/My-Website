@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <link rel="icon" href="/favicon.png" sizes="any"/>
+        <link rel="icon" href="/favicon.ico" sizes="any"/>
       </Head>
       <body className={inter.className}>
         <ThemeProvider
