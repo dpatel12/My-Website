@@ -3,9 +3,17 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./provider";
 import Head from 'next/head';
+import Script from 'next/script'
 
 
 const inter = Inter({ subsets: ["latin"] });
+
+declare global {
+  interface Window {
+    dataLayer: any[];
+  }
+}
+
 
 export const metadata: Metadata = {
   title: "Danyaal's Portfolio",
@@ -24,17 +32,16 @@ export default function RootLayout({
     <html lang="en">
       <Head>
         <link rel="icon" href="/favicon.ico" sizes="any"/>
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-PQ6FN6YXQR"></script>
-          <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-PQ6FN6YXQR');
-            `,
-          }}
-        />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-PQ6FN6YXQR"/>
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-PQ6FN6YXQR');
+        `}
+        </Script>
       </Head>
       <body className={inter.className}>
         <ThemeProvider
