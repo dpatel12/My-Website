@@ -21,7 +21,7 @@ const Footer = () => {
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
         </p>
-        <a href="mailto:danyaalp@sfu.ca">
+        <a href="mailto:contact@danyaalpatel.com">
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}

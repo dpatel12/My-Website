@@ -4,8 +4,10 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import React from 'react';
 import Typewriter from './Typewriter';
 import MagicButton from "./ui/MagicButton";
-import { FaLocationArrow } from "react-icons/fa";
-import { AiFillFolderOpen } from "react-icons/ai";
+import Link from 'next/link';
+import { IoPersonOutline } from "react-icons/io5";
+import { socialMedia } from "@/data";
+
 
 const Hero = () => {
   return (
@@ -57,13 +59,28 @@ const Hero = () => {
                 />
 
             </div>
-            <a href="#about">
-                <MagicButton
-                  title = "Show my work"
-                  icon={<AiFillFolderOpen/>}
-                  position='right'
-                />
-            </a>
+            <div className="flex gap-4"> 
+              <Link href="/DanyaalPatelResume.pdf" passHref>
+                  <MagicButton
+                    title="View My Resume"
+                    icon={<IoPersonOutline/>}  
+                    position='right'
+                  />
+              </Link>
+            </div>
+            <div className="flex items-center md:gap-3 gap-6 sm:gap-3 pt-2">
+              {socialMedia.map((info) => (
+                <a
+                key={info.id}
+                href={info.link}  
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
+                >
+                <img src={info.img} alt="icons" width={20} height={20} />
+              </a>
+              ))}
+            </div>
           </div>
         </div>
     </div>
