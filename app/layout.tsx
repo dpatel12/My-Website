@@ -30,8 +30,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
-        <link rel="icon" href="/favicon.ico" sizes="any"/>
+      <head>
+        <Head>
+          <link rel="icon" href="/favicon.ico" sizes="any"/>
+        </Head>
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-PQ6FN6YXQR"/>
         <Script id="google-analytics" strategy="afterInteractive">
           {`
@@ -42,7 +44,8 @@ export default function RootLayout({
           gtag('config', 'G-PQ6FN6YXQR');
         `}
         </Script>
-      </Head>
+      </head>
+      
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
