@@ -189,7 +189,7 @@ export const companies = [
   {
     id:11,
     name: "ubcgu",
-    img: "/gu.png"
+    img: "/GU.png"
   },
   {
     id:12,
