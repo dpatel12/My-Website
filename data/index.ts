@@ -193,6 +193,11 @@ export const companies = [
   },
   {
     id:12,
+    name: "fifthavenue",
+    img: "/5thavenue.png"
+  },
+  {
+    id:13,
     name: "executive",
     img: "/executive.png"
   },
