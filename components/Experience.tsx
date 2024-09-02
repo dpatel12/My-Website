@@ -101,10 +101,10 @@ const Experience = () => {
                   className="lg:w-32 md:w-20 w-16"
                 />
                 <div className="lg:ms-5">
-                  <h1 className="text-start text-xl md:text-2xl font-bold">
+                  <h1 className="text-start text-xl md:text-2xl font-bold select-text">
                     {card.title}
                   </h1>
-                  <ul className="text-start text-white-100 mt-3 font-semibold list-disc list-inside">
+                  <ul className="text-start text-white-100 mt-3 font-semibold list-disc list-inside select-text">
                     {card.desc.map((item: string, index: number) => (
                       <li key={index} className="text-sm md:text-base">
                         {item}
