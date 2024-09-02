@@ -74,7 +74,7 @@ const Experience = () => {
               selectedCategory === "sports" ? "bg-purple text-white" : "bg-gray-200 text-black"
             }`}
           >
-            <FaFootballBall /> Sports
+            <FaFootballBall /> Sports Management
           </button>
         </div>
 
