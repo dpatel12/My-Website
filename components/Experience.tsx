@@ -13,11 +13,18 @@ const Experience = () => {
     setSelectedCategory(category);
   };
 
-  const filteredWorkExperience = workExperience.filter((job) =>
+  const filteredWorkExperience = workExperience
+  .filter((job) =>
     selectedCategory === "all"
-      ? true
+      ? !job.excludeFromAll
       : job.categories.includes(selectedCategory)
-  );
+  )
+  .sort((a, b) => {
+    const aEndDate = new Date(a.date.split(" - ")[1] || a.date.split(" - ")[0]); // Extracts the end date
+    const bEndDate = new Date(b.date.split(" - ")[1] || b.date.split(" - ")[0]); // Extracts the end date
+    return bEndDate.getTime() - aEndDate.getTime(); // Sort by end date, most recent first
+  });
+
 
   return (
     <section id="workexp" className="py-20">

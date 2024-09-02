@@ -180,7 +180,7 @@ export const workExperience = [
     ],
     className: "md:col-span-2",
     thumbnail: "/absolute.jpeg",
-    date: "September 2023 - May 2024", // example date
+    date: "2023-09 - 2024-05", // updated date format
     categories: ["software"]
   },
   {
@@ -194,7 +194,7 @@ export const workExperience = [
     ],
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/headstarter.jpeg",
-    date: "July 2024 - September 2024", // example date
+    date: "2024-07 - 2024-09", // updated date format
     categories: ["software"]
   },
   {
@@ -208,7 +208,7 @@ export const workExperience = [
     ],
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/albertsonssquare.svg",
-    date: "September 2022 - January 2023", // example date
+    date: "2022-09 - 2023-01", // updated date format
     categories: ["software"]
   },
   {
@@ -220,7 +220,7 @@ export const workExperience = [
     ],
     className: "md:col-span-2",
     thumbnail: "/phsanew.png",
-    date: "September 2021 - January 2022", // example date
+    date: "2021-09 - 2022-01", // updated date format
     categories: ["software"]
   },
   {
@@ -233,7 +233,7 @@ export const workExperience = [
     ],
     className: "md:col-span-2",
     thumbnail: "/applereal.svg",
-    date: "September 2023 - January 2024", // example date
+    date: "2023-09 - 2024-01", // updated date format
     categories: ["business-tech"]
   },
   {
@@ -246,7 +246,7 @@ export const workExperience = [
     ],
     className: "md:col-span-2",
     thumbnail: "/hp.svg",
-    date: "August 2024 - September 2024",
+    date: "2024-08 - 2024-09", // updated date format
     // banner: "STARTING SOON", // example date
     categories: ["business-tech"]
   },
@@ -259,7 +259,7 @@ export const workExperience = [
     ],
     className: "md:col-span-2",
     thumbnail: "/sheraton1.svg",
-    date: "July 2022 - January 2023",
+    date: "2022-07 - 2023-01", // updated date format
     categories: ["retail"]
   },
   {
@@ -268,23 +268,23 @@ export const workExperience = [
     desc: [
       "Carefully drove and parked guest vehicles while ensuring that vehicles were locked and the exact location was recorded.",
       "Treated guests in a friendly, professional manner, and retrieved vehicles upon request",
-      "Provided valet services at fine dining restuarants in downtown Vancouver and at private events throughout the Lower Mainland.",
+      "Provided valet services at fine dining restaurants in downtown Vancouver and at private events throughout the Lower Mainland.",
     ],
     className: "md:col-span-2",
     thumbnail: "/5thavenue.png",
-    date: "August 2021 - January 2023",
+    date: "2021-08 - 2023-01", // updated date format
     categories: ["retail"]
   },
   {
     id: 9,
     title: "Bellman, Exchange Hotel Vancouver",
     desc: [
-      "Handled guest interactions with the highest level of hospitality and professionalism, accomodated special requests whenever possible, and assisted guests with inquiries in connection to hotel services.",
+      "Handled guest interactions with the highest level of hospitality and professionalism, accommodated special requests whenever possible, and assisted guests with inquiries in connection to hotel services.",
       "Greeted guests passing through the lobby and assisted proactively.",
     ],
     className: "md:col-span-2",
     thumbnail: "/exchange.png",
-    date: "December 2021 - March 2022",
+    date: "2021-12 - 2022-03", // updated date format
     categories: ["retail"]
   },
   {
@@ -296,7 +296,7 @@ export const workExperience = [
     ],
     className: "md:col-span-2",
     thumbnail: "/lmfra.png",
-    date: "August 2019 - Nov 2021",
+    date: "2019-08 - 2021-11", // updated date format
     categories: ["sports"]
   },
   {
@@ -308,7 +308,7 @@ export const workExperience = [
     ],
     className: "md:col-span-2",
     thumbnail: "/canlan.png",
-    date: "July 2017 - Nov 2021",
+    date: "2017-07 - 2021-11", // updated date format
     categories: ["sports"]
   },
   {
@@ -320,7 +320,7 @@ export const workExperience = [
     ],
     className: "md:col-span-2",
     thumbnail: "/bchydro.svg",
-    date: "July 2018",
+    date: "2018-07", // updated date format
     categories: ["business-tech"]
   },
   {
@@ -332,7 +332,7 @@ export const workExperience = [
     ],
     className: "md:col-span-2",
     thumbnail: "/disneystore.svg",
-    date: "May 2019 - September 2019",
+    date: "2019-05 - 2019-09", // updated date format
     categories: ["retail"]
   },
   {
@@ -344,7 +344,7 @@ export const workExperience = [
     ],
     className: "md:col-span-2",
     thumbnail: "/newwest.jpeg",
-    date: "May 2013 - June 2015",
+    date: "2013-05 - 2015-06", // updated date format
     categories: ["all"]
   },
   {
@@ -357,10 +357,12 @@ export const workExperience = [
     ],
     className: "md:col-span-2",
     thumbnail: "/RASVG.svg",
-    date: "January 2022 - May 2022",
-    categories: ["sports"]
+    date: "2022-01 - 2022-05", // updated date format
+    categories: ["sports"],
+    excludeFromAll: true,
   },
 ];
+
 
 export const education = [
   {
