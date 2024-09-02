@@ -138,34 +138,65 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "apple",
+    img: "/applereal.svg"
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "absolute",
+    img: "/absolute.jpeg"
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "albertsons",
+    img: "/albertsonssquare.svg"
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    name: "phsa",
+    img: "/phsanew.png"
   },
   {
     id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "hp",
+    img: "/hp.svg"
   },
+  {
+    id: 6,
+    name: "marriott",
+    img: "/marriottinter.svg"
+  },
+  {
+    id:7,
+    name: "sheraton",
+    img: "/sheraton1.svg"
+  },
+  {
+    id: 8,
+    name: "disney",
+    img: "/disneywhite.png"
+  },
+  {
+    id:9,
+    name: "canlan",
+    img: "/canlan.png"
+  },
+  {
+    id:10,
+    name: "bchydro",
+    img: "/bchydro.svg"
+  },
+  {
+    id:11,
+    name: "ubcgu",
+    img: "/gu.png"
+  },
+  {
+    id:12,
+    name: "executive",
+    img: "/executive.png"
+  },
+  
 ];
 
 export const workExperience = [

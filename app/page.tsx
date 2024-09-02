@@ -9,6 +9,7 @@ import Clients from "@/components/Clients"
 import EducationCertifications from "@/components/EducationCertifications"
 import Experience from "@/components/Experience"
 import Skills from "@/components/Skills"
+import TrustedBy from "@/components/TrustedBy"
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import Image from "next/image";
 import { FaHome } from "react-icons/fa";
@@ -26,6 +27,7 @@ export default function Home() {
           <EducationCertifications />
           <Skills/>
           <Clients/>
+          <TrustedBy/>
           <Footer/>
         </div>
     </main>
