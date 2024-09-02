@@ -181,6 +181,7 @@ export const workExperience = [
     className: "md:col-span-2",
     thumbnail: "/absolute.jpeg",
     date: "September 2023 - May 2024", // example date
+    categories: ["tech"]
   },
   {
     id: 2,
@@ -194,6 +195,7 @@ export const workExperience = [
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/headstarter.jpeg",
     date: "July 2024 - September 2024", // example date
+    categories: ["tech"]
   },
   {
     id: 3,
@@ -207,6 +209,7 @@ export const workExperience = [
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/albertsonssquare.svg",
     date: "September 2022 - January 2023", // example date
+    categories: ["tech"]
   },
   {
     id: 4,
@@ -218,6 +221,7 @@ export const workExperience = [
     className: "md:col-span-2",
     thumbnail: "/phsanew.png",
     date: "September 2021 - January 2022", // example date
+    categories: ["tech"]
   },
   {
     id: 5,
@@ -230,6 +234,7 @@ export const workExperience = [
     className: "md:col-span-2",
     thumbnail: "/applereal.svg",
     date: "September 2023 - January 2024", // example date
+    categories: ["business"]
   },
   {
     id: 6,
@@ -242,7 +247,8 @@ export const workExperience = [
     className: "md:col-span-2",
     thumbnail: "/hp.svg",
     date: "August 2024 - September 2024",
-    banner: "STARTING SOON" // example date
+    banner: "STARTING SOON", // example date
+    categories: ["business"]
   },
 ];
 

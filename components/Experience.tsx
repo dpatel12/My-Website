@@ -1,8 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import { workExperience } from "@/data";
 import { Button } from "./ui/MovingBorders";
 
 const Experience = () => {
+
+  const [selectedCategory, setSelectedCategory] = useState<Category>("tech");
+
+  type Category = "all" | "tech" | "retail" | "business"; // Add more as needed
+
+  const handleFilterClick = (category: Category) => {
+    setSelectedCategory(category);
+  };
+
+  const filteredWorkExperience = workExperience.filter((job) =>
+    selectedCategory === "all"
+      ? true
+      : job.categories.includes(selectedCategory)
+  );
+
   return (
     <section id="workexp" className="py-20">
       <div className="py-20 w-full">
@@ -10,8 +25,46 @@ const Experience = () => {
           My <span className="text-purple">work experience</span>
         </h1>
 
+
+        {/* Filter Buttons */}
+        <div className="flex flex-wrap justify-center gap-4 mb-8 mt-4 px-2 sm:px-4">
+        <button
+            onClick={() => handleFilterClick("all")}
+            className={`px-6 py-3 rounded-[1.75rem]  ${
+              selectedCategory === "all" ? "bg-purple text-white" : "bg-gray-200 text-black"
+            }`}
+          >
+            All
+          </button>
+          <button
+            onClick={() => handleFilterClick("tech")}
+            className={`px-6 py-3 rounded-[1.75rem]  ${
+              selectedCategory === "tech" ? "bg-purple text-white" : "bg-gray-200 text-black"
+            }`}
+          >
+            Tech
+          </button>
+          <button
+            onClick={() => handleFilterClick("retail")}
+            className={`px-6 py-3 rounded-[1.75rem] ${
+              selectedCategory === "retail" ? "bg-purple text-white" : "bg-gray-200 text-black"
+            }`}
+          >
+            Retail
+          </button>
+          <button
+            onClick={() => handleFilterClick("business")}
+            className={`px-6 py-3 rounded-[1.75rem] ${
+              selectedCategory === "business" ? "bg-purple text-white" : "bg-gray-200 text-black"
+            }`}
+          >
+            Business
+          </button>
+        </div>
+
+
         <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
-          {workExperience.map((card) => (
+          {filteredWorkExperience.map((card) => (
             <Button
               key={card.id}
               duration={Math.floor(Math.random() * 10000) + 10000}
