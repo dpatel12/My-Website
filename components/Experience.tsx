@@ -109,7 +109,7 @@ const Experience = () => {
                 />
                 <div className="lg:ms-5">
                   <h1 className="text-start text-xl md:text-2xl font-bold select-text">
-                    {card.title}
+                    {card.title}, <span className="font-medium text-purple">{card.company}</span>
                   </h1>
                   <ul className="text-start text-white-100 mt-3 font-semibold list-disc list-inside select-text">
                     {card.desc.map((item: string, index: number) => (
