@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import { workExperience } from "@/data";
 import { Button } from "./ui/MovingBorders";
-import { FaLaptopCode, FaBriefcase, FaShoppingCart, FaFootballBall } from "react-icons/fa"; // Import icons
+import { FaLaptopCode, FaBriefcase, FaFootballBall, FaUserFriends } from "react-icons/fa"; // Import icons
 
 const Experience = () => {
 
   const [selectedCategory, setSelectedCategory] = useState<Category>("software");
 
-  type Category = "all" | "software" | "business-tech" | "retail" | "sports" // Add more as needed
+  type Category = "all" | "software" | "business-tech" | "customerservice" | "sports" // Add more as needed
 
   const handleFilterClick = (category: Category) => {
     setSelectedCategory(category);
@@ -61,12 +61,12 @@ const Experience = () => {
             <FaBriefcase /> Business & Tech
           </button>
           <button
-            onClick={() => handleFilterClick("retail")}
+            onClick={() => handleFilterClick("customerservice")}
             className={`px-6 py-3 rounded-[1.75rem] flex items-center justify-center gap-2 ${
-              selectedCategory === "retail" ? "bg-purple text-white" : "bg-gray-200 text-black"
+              selectedCategory === "customerservice" ? "bg-purple text-white" : "bg-gray-200 text-black"
             }`}
           >
-            <FaShoppingCart /> Retail
+            <FaUserFriends /> Customer Service
           </button>
           <button
             onClick={() => handleFilterClick("sports")}

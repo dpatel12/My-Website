@@ -296,7 +296,7 @@ export const workExperience = [
     className: "md:col-span-2",
     thumbnail: "/sheraton1.svg",
     date: "2022-07 - 2023-01", // updated date format
-    categories: ["retail"]
+    categories: ["customerservice"]
   },
   {
     id: 8,
@@ -309,7 +309,7 @@ export const workExperience = [
     className: "md:col-span-2",
     thumbnail: "/5thavenue.png",
     date: "2021-08 - 2023-01", // updated date format
-    categories: ["retail"]
+    categories: ["customerservice"]
   },
   {
     id: 9,
@@ -321,7 +321,7 @@ export const workExperience = [
     className: "md:col-span-2",
     thumbnail: "/exchange.png",
     date: "2021-12 - 2022-03", // updated date format
-    categories: ["retail"]
+    categories: ["customerservice"]
   },
   {
     id: 10,
@@ -369,7 +369,7 @@ export const workExperience = [
     className: "md:col-span-2",
     thumbnail: "/disneystore.svg",
     date: "2019-05 - 2019-09", // updated date format
-    categories: ["retail"]
+    categories: ["customerservice"]
   },
   {
     id: 14,
