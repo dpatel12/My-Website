@@ -181,11 +181,11 @@ export const workExperience = [
     className: "md:col-span-2",
     thumbnail: "/absolute.jpeg",
     date: "September 2023 - May 2024", // example date
-    categories: ["tech"]
+    categories: ["software"]
   },
   {
     id: 2,
-    title: "Software Engineering Fellow, Headstarter AI",
+    title: "Software Engineering Fellow & ScrumMaster, Headstarter AI",
     desc: [
       "Leading the development of key projects utilizing HTML, CSS, DNS, ReactJS, NextJS, Firebase, OpenAI, AWS, authentication systems, Stripe API, RAG, and vector databases.",
       "Serving as Scrum Master, facilitating agile processes, and ensuring efficient team collaboration and project delivery.",
@@ -195,7 +195,7 @@ export const workExperience = [
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/headstarter.jpeg",
     date: "July 2024 - September 2024", // example date
-    categories: ["tech"]
+    categories: ["software"]
   },
   {
     id: 3,
@@ -209,7 +209,7 @@ export const workExperience = [
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/albertsonssquare.svg",
     date: "September 2022 - January 2023", // example date
-    categories: ["tech"]
+    categories: ["software"]
   },
   {
     id: 4,
@@ -221,7 +221,7 @@ export const workExperience = [
     className: "md:col-span-2",
     thumbnail: "/phsanew.png",
     date: "September 2021 - January 2022", // example date
-    categories: ["tech"]
+    categories: ["software"]
   },
   {
     id: 5,
@@ -234,7 +234,7 @@ export const workExperience = [
     className: "md:col-span-2",
     thumbnail: "/applereal.svg",
     date: "September 2023 - January 2024", // example date
-    categories: ["business"]
+    categories: ["business-tech"]
   },
   {
     id: 6,
@@ -248,7 +248,7 @@ export const workExperience = [
     thumbnail: "/hp.svg",
     date: "August 2024 - September 2024",
     banner: "STARTING SOON", // example date
-    categories: ["business"]
+    categories: ["business-tech"]
   },
 ];
 

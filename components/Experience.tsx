@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import { workExperience } from "@/data";
 import { Button } from "./ui/MovingBorders";
+import { FaLaptopCode, FaBriefcase, FaShoppingCart, FaFootballBall } from "react-icons/fa"; // Import icons
 
 const Experience = () => {
 
-  const [selectedCategory, setSelectedCategory] = useState<Category>("tech");
+  const [selectedCategory, setSelectedCategory] = useState<Category>("software");
 
-  type Category = "all" | "tech" | "retail" | "business"; // Add more as needed
+  type Category = "all" | "software" | "business-tech" | "retail" | "sports" // Add more as needed
 
   const handleFilterClick = (category: Category) => {
     setSelectedCategory(category);
@@ -28,37 +29,45 @@ const Experience = () => {
 
         {/* Filter Buttons */}
         <div className="flex flex-wrap justify-center gap-4 mb-8 mt-4 px-2 sm:px-4">
-        <button
+          <button
             onClick={() => handleFilterClick("all")}
-            className={`px-6 py-3 rounded-[1.75rem]  ${
+            className={`px-6 py-3 rounded-[1.75rem] flex items-center justify-center gap-2 ${
               selectedCategory === "all" ? "bg-purple text-white" : "bg-gray-200 text-black"
             }`}
           >
             All
           </button>
           <button
-            onClick={() => handleFilterClick("tech")}
-            className={`px-6 py-3 rounded-[1.75rem]  ${
-              selectedCategory === "tech" ? "bg-purple text-white" : "bg-gray-200 text-black"
+            onClick={() => handleFilterClick("software")}
+            className={`px-6 py-3 rounded-[1.75rem] flex items-center justify-center gap-2 ${
+              selectedCategory === "software" ? "bg-purple text-white" : "bg-gray-200 text-black"
             }`}
           >
-            Tech
+            <FaLaptopCode /> Software
+          </button>
+          <button
+            onClick={() => handleFilterClick("business-tech")}
+            className={`px-6 py-3 rounded-[1.75rem] flex items-center justify-center gap-2 ${
+              selectedCategory === "business-tech" ? "bg-purple text-white" : "bg-gray-200 text-black"
+            }`}
+          >
+            <FaBriefcase /> Business & Tech
           </button>
           <button
             onClick={() => handleFilterClick("retail")}
-            className={`px-6 py-3 rounded-[1.75rem] ${
+            className={`px-6 py-3 rounded-[1.75rem] flex items-center justify-center gap-2 ${
               selectedCategory === "retail" ? "bg-purple text-white" : "bg-gray-200 text-black"
             }`}
           >
-            Retail
+            <FaShoppingCart /> Retail
           </button>
           <button
-            onClick={() => handleFilterClick("business")}
-            className={`px-6 py-3 rounded-[1.75rem] ${
-              selectedCategory === "business" ? "bg-purple text-white" : "bg-gray-200 text-black"
+            onClick={() => handleFilterClick("sports")}
+            className={`px-6 py-3 rounded-[1.75rem] flex items-center justify-center gap-2 ${
+              selectedCategory === "sports" ? "bg-purple text-white" : "bg-gray-200 text-black"
             }`}
           >
-            Business
+            <FaFootballBall /> Sports
           </button>
         </div>
 
