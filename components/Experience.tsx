@@ -86,11 +86,11 @@ const Experience = () => {
               }}
               className="relative flex-1 text-black dark:text-white border-neutral-200 dark:border-slate-800"
             >
-              {card.banner && (
+              {/* {card.banner && (
                 <div className="absolute top-0 left-1/2 transform -translate-x-1/2 bg-green-600 text-white text-xs font-bold py-1 px-2 rounded-t-[calc(1.75rem* 0.96)] inline-block">
                   {card.banner}
                 </div>
-              )}
+              )} */}
               <div className="absolute top-4 right-4 text-sm text-white-200">
                 {card.date} {/* Display the date */}
               </div>

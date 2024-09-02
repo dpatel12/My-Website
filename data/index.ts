@@ -247,8 +247,118 @@ export const workExperience = [
     className: "md:col-span-2",
     thumbnail: "/hp.svg",
     date: "August 2024 - September 2024",
-    banner: "STARTING SOON", // example date
+    // banner: "STARTING SOON", // example date
     categories: ["business-tech"]
+  },
+  {
+    id: 7,
+    title: "Bellman/Valet, Sheraton Hotels & Resorts",
+    desc: [
+      "Assisted incoming and outgoing guests with their luggage in and out of vehicles as requested. Drove guest vehicles to and from the courtyards and the valet guest parking area in a safe manner.",
+      "Delivered packages, faxes, mail, and completed room checks in a timely manner.",
+    ],
+    className: "md:col-span-2",
+    thumbnail: "/sheraton1.svg",
+    date: "July 2022 - January 2023",
+    categories: ["retail"]
+  },
+  {
+    id: 8,
+    title: "Valet Attendant, Fifth Avenue Valets Ltd",
+    desc: [
+      "Carefully drove and parked guest vehicles while ensuring that vehicles were locked and the exact location was recorded.",
+      "Treated guests in a friendly, professional manner, and retrieved vehicles upon request",
+      "Provided valet services at fine dining restuarants in downtown Vancouver and at private events throughout the Lower Mainland.",
+    ],
+    className: "md:col-span-2",
+    thumbnail: "/5thavenue.png",
+    date: "August 2021 - January 2023",
+    categories: ["retail"]
+  },
+  {
+    id: 9,
+    title: "Bellman, Exchange Hotel Vancouver",
+    desc: [
+      "Handled guest interactions with the highest level of hospitality and professionalism, accomodated special requests whenever possible, and assisted guests with inquiries in connection to hotel services.",
+      "Greeted guests passing through the lobby and assisted proactively.",
+    ],
+    className: "md:col-span-2",
+    thumbnail: "/exchange.png",
+    date: "December 2021 - March 2022",
+    categories: ["retail"]
+  },
+  {
+    id: 10,
+    title: "Youth Football Referee, Lower Mainland Football Referee Association",
+    desc: [
+      "Officiated games, enforced rules, and assessed penalties.",
+      "Ensured the game ran smoothly and on schedule while coordinating effectively with other officials.",
+    ],
+    className: "md:col-span-2",
+    thumbnail: "/lmfra.png",
+    date: "August 2019 - Nov 2021",
+    categories: ["sports"]
+  },
+  {
+    id: 11,
+    title: "Ice Hockey Timekeeper, Canlan Sports",
+    desc: [
+      "Managed multiple responsibilities during hockey games, including recording statistics, publishing game information on the website, and operating the scoreboard.",
+      "Ensured accurate and timely updates to enhance the game experience for both players and spectators.",
+    ],
+    className: "md:col-span-2",
+    thumbnail: "/canlan.png",
+    date: "July 2017 - Nov 2021",
+    categories: ["sports"]
+  },
+  {
+    id: 12,
+    title: "Drafting Intern, BC Hydro",
+    desc: [
+      "Prepared visualizations, including charts and maps, and sketched diagrams for dams.",
+      "Developed proficiency in AutoCAD while contributing to projects for the BC Hydro Civil Engineering Department.",
+    ],
+    className: "md:col-span-2",
+    thumbnail: "/bchydro.svg",
+    date: "July 2018",
+    categories: ["business-tech"]
+  },
+  {
+    id: 13,
+    title: "Sales Associate, Disney Store",
+    desc: [
+      "Assisted customers in selecting merchandise, providing personalized recommendations to enhance their shopping experience.",
+      "Maintained an organized and visually appealing store environment while processing transactions efficiently.",
+    ],
+    className: "md:col-span-2",
+    thumbnail: "/disneystore.svg",
+    date: "May 2019 - September 2019",
+    categories: ["retail"]
+  },
+  {
+    id: 14,
+    title: "Newspaper Carrier, New West Record",
+    desc: [
+      "Distributed newspapers to 75 houses in the neighbourhood twice a week.",
+      "Managed timely deliveries while maintaining an accurate record of addresses and customer preferences.",
+    ],
+    className: "md:col-span-2",
+    thumbnail: "/newwest.jpeg",
+    date: "May 2013 - June 2015",
+    categories: ["all"]
+  },
+  {
+    id: 15,
+    title: "Manager & Team Captain, Ruthless Aggression Touch Football Team",
+    desc: [
+      "Formed and led a men's touch football team for a local recreational league.",
+      "Organized practices, recruited players, managed team communications, and handled the procurement of jerseys and equipment.",
+      "Oversaw team finances, handling budgeting, fee collection, and payments for jerseys, equipment, and league fees.",
+    ],
+    className: "md:col-span-2",
+    thumbnail: "/RASVG.svg",
+    date: "January 2022 - May 2022",
+    categories: ["sports"]
   },
 ];
 
