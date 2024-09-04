@@ -52,15 +52,15 @@ const Hero = () => {
                         'dive into data and see what it tells me',
                         'bridge the gap between tech and business goals'
                     ]}
-                    typingSpeed={75}
+                    typingSpeed={85}
                     deletingSpeed={40}
-                    delayBetweenPhrases={550}
+                    delayBetweenPhrases={500}
                     initialDelay={2000}
                 />
 
             </div>
             <div className="flex gap-4"> 
-              <Link href="/DanyaalPatelSeptemberResume.pdf" passHref>
+              <Link href="/DanyaalPatelResumeSeptember24.pdf" passHref>
                   <MagicButton
                     title="View My Resume"
                     icon={<IoPersonOutline/>}  
