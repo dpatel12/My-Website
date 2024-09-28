@@ -432,7 +432,7 @@ export const certificationsData = [
     id: 1,
     title: "AWS Certified Cloud Practitioner",
     institution: "Amazon Web Services",
-    date: "September 2024 (Expected)",
+    date: "October 2024 (Expected)",
     logo: "/aws.svg",
     banner: "IN PROGRESS",
   },
