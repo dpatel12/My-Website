@@ -202,6 +202,11 @@ export const companies = [
     name: "executive",
     img: "/executive.png"
   },
+  {
+    id:14,
+    name: "solar",
+    img: "/solve-logo.svg"
+  },
   
 ];
 
@@ -411,6 +416,18 @@ export const workExperience = [
     date: "2022-01 - 2022-05",
     categories: ["sports"],
     excludeFromAll: true,
+  },
+  {
+    id: 16,
+    title: "Solar Energy Consultant",
+    company: "Solve Solar",
+    desc: [
+      ""
+    ],
+    className: "md:col-span-2",
+    thumbnail: "/solve-logo.png",
+    date: "2025-03 - 2025-04",
+    categories: ["business-tech"]
   },
 ];
 
