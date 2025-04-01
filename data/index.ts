@@ -425,7 +425,7 @@ export const workExperience = [
       ""
     ],
     className: "md:col-span-2",
-    thumbnail: "/solve-logo.png",
+    thumbnail: "/solve-logo.svg",
     date: "2025-03 - 2025-04",
     categories: ["business-tech"]
   },
