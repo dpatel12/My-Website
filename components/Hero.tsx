@@ -60,7 +60,7 @@ const Hero = () => {
 
             </div>
             <div className="flex gap-4"> 
-              <Link href="/DanyaalPatelResumeSeptember24.pdf" passHref>
+              <Link href="/DanyaalPatelJune25Resume.pdf" passHref>
                   <MagicButton
                     title="View My Resume"
                     icon={<IoPersonOutline/>}  
