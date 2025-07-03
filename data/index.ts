@@ -422,7 +422,9 @@ export const workExperience = [
     title: "Solar Energy Consultant",
     company: "Solve Energy",
     desc: [
-      ""
+      "Generated over $500,000 in solar systems revenue in the first 60 days by booking qualified sales appointments and creating custom solar designs and personalized savings reports for in-home consultations.",
+      "Sourced and qualified leads through strategic door-to-door engagement, delivering tailored presentations, collecting key homeowner and property data, while driving high appointment conversion rates.",
+      "Awarded MVP during the first two-week sales blitz for setting the most appointments and achieving the most sales."
     ],
     className: "md:col-span-2",
     thumbnail: "/solveenergy.jpg",
